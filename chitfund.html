@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chit Fund Calculator</title>
+  <link rel="stylesheet" href="chitfund.css">
+</head>
+<body>
+
+<h2>Chit Fund Repayment Schedule</h2>
+
+<div class="form-container">
+  <label>Principal Amount:</label>
+  <input type="number" id="principal" placeholder="e.g., 10000" />
+
+  <label>Monthly Interest Rate (%):</label>
+  <input type="number" id="interestRate" placeholder="e.g., 1" />
+
+  <label>Monthly Saving Amount:</label>
+  <input type="number" id="saving" placeholder="e.g., 500" />
+
+  <label>Monthly Principal Repayment:</label>
+  <input type="number" id="monthlyRepay" placeholder="e.g., 1000" />
+
+  <button onclick="generateSchedule()">Generate Schedule</button>
+</div>
+
+<div id="result"></div>
+
+
+</body>
+<script src="chitfund.js"></script>
+
+</html>
